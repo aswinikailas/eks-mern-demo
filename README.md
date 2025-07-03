@@ -139,10 +139,10 @@ Includes deployments and services for:
 ## 🗺️ Architecture Diagrams
 
 ### 1. 📊 Infrastructure Setup
-![Infra](Architecture/eks-mern-Architecture.png)
+![Infra](Architecture/eks-mern-architecture.png)
 
 ### 2. 📦 Application Architecture
-![App](Architecture/mern-app-Architecture.png)
+![App](Architecture/mern-app-architecture.png)
 
 ### 3. 🔄 CI/CD Workflow
 ![CI/CD](Architecture/ci-cd-pipeline.jpg)
@@ -172,6 +172,6 @@ Please refer to the Screenshots and diagrams for proof of concept.
 
 ## 📧 Contact
 
-For any queries regarding this setup, feel free to connect with me.
+- For any queries regarding this setup, feel free to connect with me.
 - Email : aswinikailas1@gmail.com
 - Phone : +971 589388067
