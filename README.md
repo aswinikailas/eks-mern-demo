@@ -49,15 +49,15 @@ This repository showcases a full end-to-end DevOps pipeline for deploying a cont
 │
 ├── docker-compose.yaml
 │
-├── screenshots/
+├── Screenshots/
 │   ├── grafana-dashboard.png
 │   ├── argo-cd-ui.png
 │   ├── prometheus-query.png
 │   └── mern-ui.png
 │
-├── architecture/
-│   ├── eks-mern-architecture.png      # Full EKS setup
-│   ├── mern-app-architecture.png      # Application architecture
+├── Architecture/
+│   ├── eks-mern-Architecture.png      # Full EKS setup
+│   ├── mern-app-Architecture.png      # Application Architecture
 │   └── ci-cd-pipeline.png             # CI/CD workflow diagram 
 └── README.md
 ```
@@ -114,7 +114,7 @@ Includes deployments and services for:
 - Grafana used for dashboarding
 
 📁 Screenshot:  
-`screenshots/grafana-dashboard.png`
+`Screenshots/grafana-dashboard.png`
 
 ---
 
@@ -128,24 +128,24 @@ Includes deployments and services for:
 
 | Argo CD UI | Grafana Dashboard |
 |------------|-------------------|
-| ![Argo CD](screenshots/argo-cd-ui.png) | ![Grafana](screenshots/grafana-dashboard.png) |
+| ![Argo CD](Screenshots/argo-cd-ui.png) | ![Grafana](Screenshots/grafana-dashboard.png) |
 
 | MERN App (Frontend via ALB) |
 |-----------------------------|
-| ![MERN UI](screenshots/mern-ui.png) |
+| ![MERN UI](Screenshots/mern-ui.png) |
 
 ---
 
 ## 🗺️ Architecture Diagrams
 
 ### 1. 📊 Infrastructure Setup
-![Infra](architecture/eks-mern-architecture.png)
+![Infra](Architecture/eks-mern-Architecture.png)
 
 ### 2. 📦 Application Architecture
-![App](architecture/mern-app-architecture.png)
+![App](Architecture/mern-app-Architecture.png)
 
 ### 3. 🔄 CI/CD Workflow
-![CI/CD](architecture/ci-cd-pipeline.jpg)
+![CI/CD](Architecture/ci-cd-pipeline.jpg)
 
 ---
 
@@ -158,7 +158,7 @@ This repository includes everything requested in the task:
 - Monitoring with Prometheus + Grafana
 - Infra provisioned via modular Terraform
 
-Please refer to the screenshots and diagrams for proof of concept.
+Please refer to the Screenshots and diagrams for proof of concept.
 
 ---
 
@@ -173,5 +173,5 @@ Please refer to the screenshots and diagrams for proof of concept.
 ## 📧 Contact
 
 For any queries regarding this setup, feel free to connect with me.
-Email : aswinikailas1@gmail.com
-Phone : +971 589388067
+- Email : aswinikailas1@gmail.com
+- Phone : +971 589388067
