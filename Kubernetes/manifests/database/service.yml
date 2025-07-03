@@ -1,0 +1,11 @@
+# mongo-service.yaml
+apiVersion: v1
+kind: Service
+metadata:
+  name: mongodb # This is the hostname backend will use
+spec:
+  selector:
+    app: mongodb
+  ports:
+  - port: 27017
+    targetPort: 27017
